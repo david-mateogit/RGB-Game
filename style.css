@@ -1,0 +1,120 @@
+body {
+    font-family: "Montserrat", "Avenir";
+    background-color: #232323;
+    margin: 0;
+    
+}
+
+h1 {
+    color: white;
+    background-color: steelblue;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.2;
+    margin: 0;
+    padding: 15px 0;
+    font-size: 24px;
+}
+
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.6%;
+    border-radius: 10%;
+    transition: background 0.30s;
+    -webkit-transition: background 0.30s;
+    -moz-transition: background 0.30s;
+   
+    
+}
+
+#container {
+    margin: 20px auto;
+    max-width: 600px;
+  
+}
+
+.stripe_container{
+    width: 100%;
+    background: white;
+}
+
+#stripe {
+    background: white;
+    height: 40px;
+    text-align: center;
+    color: black;
+    font-size: 1em;
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;  
+    justify-items: center;
+    align-items: center;
+
+}
+
+#reset{
+    float: left;
+}
+.selected {
+    background-color: steelblue;
+    color: white;
+    white-space: nowrap;
+    
+}
+
+#colorDisplay{
+    font-size: 200%;
+}
+
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    margin: auto;
+   float: right;
+    height: 100%;
+    width: 128px;
+    white-space: nowrap;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+    outline: none;
+    transition: all 0.30s;
+    -webkit-transition: all 0.30s;
+    -moz-transition: all 0.30s;
+    overflow: visible;
+
+}
+
+.btn-easy{
+    margin-right: 0;
+}
+
+.btn-hard{
+    margin-left: 0;
+}
+
+#message {
+    display: inline-block;
+    width: 22%;
+    padding-left: 21px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+   color:   rgb(248, 103, 103);
+    
+    
+}
+
+button:hover{
+    color: white;
+    background: steelblue;
+    
+}
